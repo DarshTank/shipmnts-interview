@@ -4,7 +4,7 @@
   "description": "Layered Express REST API boilerplate",
   "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "nodemon src/server.js", 
     "start": "node src/server.js",
     "test": "jest --runInBand"
   },
@@ -14,6 +14,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "helmet": "^7.1.0",
+    "mongoose": "^9.9.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
